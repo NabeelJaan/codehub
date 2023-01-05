@@ -46,7 +46,7 @@ const Languages = () => {
                     <div className="html-example p-[16px] bg-[#E7E9EB] max-w-[615px] rounded-md">
                         <h3 className="text-[24px] text-black font-semibold uppercase">html example:</h3>
 
-                        <div className="example bg-white w-[580px] h-[300px] my-4 border-l-[6px] border-red-100">
+                        <div className="example bg-white w-[580px] p-[10px] h-[300px] my-4 border-l-[6px] border-red-100">
                             <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
                             <div className=""><span>&lt;</span>html<span>&gt;</span></div>
                             <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
@@ -66,6 +66,7 @@ const Languages = () => {
                 </div>
             </div>
         </section>
+
     )   
 }
 

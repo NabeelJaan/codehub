@@ -10,14 +10,14 @@ const HeroSec = () => {
                     <p className="text-white">With the world's largest web developer site.</p>
                 </div>
 
-                <div className="flex items-center">
-                    <div className="flex space-x-1">
+                <div className="flex items-center justify-center mt-10">
+                    <div className="flex justify-center">
                         <input
                             type="text"
-                            className="block w-full px-4 py-2 text-purple-700 bg-white border rounded-full focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block px-8 py-2 w-[400px] rounded-l-full h-[47px] text-purple-700 bg-white border-r-full focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Search..."
                         />
-                        <button className="px-4 text-white bg-purple-600 rounded-full ">
+                        <button className="px-10 text-white rounded-r-full py-3 bg-[#04AA6D]">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="w-5 h-5"
