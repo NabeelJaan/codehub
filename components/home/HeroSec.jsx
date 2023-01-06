@@ -35,6 +35,7 @@ const HeroSec = () => {
                         </button>
                     </div>
                 </div>
+                <h3>where to start</h3>
             </div>
 
         </section>

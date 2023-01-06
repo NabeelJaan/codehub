@@ -13,30 +13,30 @@ const Languages = () => {
                         <h2 className="text-[100px] text-center font-bold uppercase">html</h2>
                         <p className="text-[19px] text-center text-black font-normal">The language for building web pages</p>
 
-                        <div className="btn____link my-7">
+                        <div className="btn____link flex my-7">
 
-                            <div className="button___link bg-[#04AA6D] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#04AA6D] rounded-full mr-5">
-                                <Link href="/" className="text-[18px] text-white font-normal">
+                            <div className="button___link">
+                                <Link href="/" className="text-[18px] text-white font-normal bg-[#04AA6D] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#04AA6D] rounded-full mr-5">
                                     Learn HTML
                                 </Link>
                             </div>
 
-                            <div className="button___link bg-[#FFF4A3] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#FFF4A3] rounded-full">
-                                <Link href="/" className="text-[18px] text-black font-normal">
+                            <div className="button___link">
+                                <Link href="/" className="text-[18px] text-black font-normal bg-[#FFF4A3] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#FFF4A3] rounded-full">
                                     Watch tutorial
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="btn____links">
-                            <div className="button___link bg-[#282A35] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#282A35] rounded-full mr-5">
-                                <Link href="/" className="text-[18px] text-white font-normal">
+                        <div className="btn____links flex">
+                            <div className="button___link">
+                                <Link href="/" className="text-[18px] text-white font-normal bg-[#282A35] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#282A35] rounded-full mr-5">
                                     HTML Reference
                                 </Link>
                             </div>
 
-                            <div className="button___link bg-[#FFC0C7] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#FFC0C7] rounded-full">
-                                <Link href="/" className="text-[18px] text-black font-normal">
+                            <div className="button___link">
+                                <Link href="/" className="text-[18px] text-black font-normal bg-[#FFC0C7] inline-flex items-center justify-center w-[200px] h-[43px] border border-[#FFC0C7] rounded-full">
                                     Get Certified
                                 </Link>
                             </div> 
@@ -49,11 +49,11 @@ const Languages = () => {
                         <div className="example bg-white w-[580px] p-[10px] h-[300px] my-4 border-l-[6px] border-red-100">
                             <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
                             <div className=""><span>&lt;</span>html<span>&gt;</span></div>
+                            <div className=""><span>&lt;</span>body<span>&gt;</span></div>
+                            <div className=""><span>&lt;title</span>HTML Tutorial<span>&gt;</span></div>
                             <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
-                            <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
-                            <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
-                            <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
-                            <div className=""><span>&lt;</span>!DOCTYPE html<span>&gt;</span></div>
+                            <div className=""><span>&lt;</span>body<span>&gt;</span></div>
+                            <div className=""><span>&lt;</span>head<span>&gt;</span></div>
                             <div className=""><span>&lt;</span>html<span>&gt;</span></div>
                         </div>
 
