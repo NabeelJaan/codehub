@@ -6,7 +6,7 @@ const Footer = () => {
     return(
 
         <footer>
-            <div className="footer py-20 bg-black relative mt-40">
+            <div className="footer py-20 bg-[#282A35] relative mt-40">
                 <div className="container max-w-8xl mx-auto">
                     <div className="content-wtapper">
 
@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className="nav-menu flex gap-36">
                             <div className="menu">
                                 <ul className="text-[21px] text-white/80 font-normal mt-10"> 
-                                    <li className="text-[18px] text-[#ff7a18] font-bold mb-3">DIGITALOCEAN</li>
+                                    <li className="text-[18px] text-[#04AA6D] font-bold mb-3">DIGITALOCEAN</li>
 
                                     <Link href="/" className="text-[21px] text-white/80 font-normal mt-1 block hover:text-white">
                                         DigitalOcean
@@ -41,7 +41,7 @@ const Footer = () => {
 
                             <div className="menu">
                                 <ul className="text-[21px] text-white/80 font-normal mt-10"> 
-                                    <li className="text-[18px] text-[#ff7a18] font-bold mb-3">CSS-TRICKS</li>
+                                    <li className="text-[18px] text-[#04AA6D] font-bold mb-3">CSS-TRICKS</li>
                                     <Link href="/" className="text-[21px] text-white/80 font-normal mt-1 block hover:text-white">
                                         Email
                                     </Link>
@@ -62,7 +62,7 @@ const Footer = () => {
 
                             <div className="menu">
                                 <ul className="text-[21px] text-white/80 font-normal mt-10"> 
-                                    <li className="text-[18px] text-[#ff7a18] font-bold mb-3">FOLLOW</li>
+                                    <li className="text-[18px] text-[#04AA6D] font-bold mb-3">FOLLOW</li>
                                     <Link href="/" className="text-[21px] text-white/80 font-normal mt-1 block hover:text-white">
                                         Mastodon
                                     </Link>
@@ -100,7 +100,7 @@ const Footer = () => {
                         </div>
                         
                         <div className="keep-sub p-[26px] bg-[#434343] absolute top-[-35px] right-[200px] w-[840px] rounded-b-md rounded-l-md rounded-t-none">
-                            <h3 className="text-[26px] text-[#ff7a18] font-bold mb-1">KEEP UP TO DATE ON WEB DEV</h3>
+                            <h3 className="text-[26px] text-[#04AA6D] font-bold mb-1">KEEP UP TO DATE ON WEB DEV</h3>
                             <h6 className="text-[18px] text-white font-normal">with our hand-crafted newsletter</h6>
 
                             <div className="flex items-center justify-left mt-2">
@@ -112,8 +112,8 @@ const Footer = () => {
                                     />
 
                                     <div className="button___link">
-                                        <Link href="/" className="text-[18px] text-black font-normal bg-white inline-flex items-center justify-center w-[200px] h-[47px] border border-[#fff] rounded-sm">
-                                            Get Certified
+                                        <Link href="/" className="text-[18px] text-black font-normal bg-white inline-flex items-center justify-center w-[200px] h-[47px] uppercase border border-[#fff] rounded-sm">
+                                            subscribe
                                         </Link>
                                     </div>
                                 

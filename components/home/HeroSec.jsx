@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const HeroSec = () => {
     return(
@@ -14,7 +15,7 @@ const HeroSec = () => {
                     <div className="flex justify-center">
                         <input
                             type="text"
-                            className="block px-8 py-2 w-[400px] rounded-l-full h-[47px] text-purple-700 bg-white border-r-full focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block px-8 py-2 w-[400px] rounded-l-full h-[47px] text-black bg-white border-r-full focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Search..."
                         />
                         <button className="px-10 text-white rounded-r-full py-3 bg-[#04AA6D]">
@@ -35,7 +36,12 @@ const HeroSec = () => {
                         </button>
                     </div>
                 </div>
-                <h3>where to start</h3>
+                <div className="begin-btn mt-5">
+
+                    <Link href="/" className="text-[23px] text-white font-bold underline hover:text-[#059862]">
+                        Not Sure Where To Begin?
+                    </Link>
+                </div>
             </div>
 
         </section>
